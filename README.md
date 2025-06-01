@@ -1,7 +1,7 @@
 # Charging Station Application
 This is a full-stack application for managing electric vehicle charging stations. The frontend is built with Vue 3, and the backend is built with Node.js, Express, and MongoDB.
 
-Live URL: charging-station-app-six.vercel.app
+Live URL: [charging-station-app-six.vercel.app](https://charging-station-app-six.vercel.app)
 ## Project Structure
 
 /backend: Contains the Node.js/Express backend.<br>
