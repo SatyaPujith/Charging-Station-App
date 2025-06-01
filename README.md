@@ -56,8 +56,8 @@ Run the Frontend Locally:npm run serve
 The frontend will run on http://localhost:8080.
 
 
-### Deployment
-## Backend Deployment (Render)
+## Deployment
+### Backend Deployment (Render)
 
 Push the backend folder to a GitHub repository.<br>
 Create a new Web Service on Render:<br>
@@ -71,7 +71,7 @@ Add Environment Variable: MONGODB_URI (your MongoDB Atlas connection string)<br>
 
 Deploy and get the backend URL (e.g., https://charging-station-backend.onrender.com).<br>
 
-## Frontend Deployment (Vercel)
+### Frontend Deployment (Vercel)
 
 Push the frontend folder to a GitHub repository.<br>
 Create a new project on Vercel:<br>
@@ -85,12 +85,12 @@ Add Environment Variable: VUE_APP_API_URL (set to the backend URL from Render)<b
 
 Deploy and get the frontend URL (e.g., https://charging-station-frontend.vercel.app).<br>
 
-### Usage
+## Usage
 
 Frontend: Access the app via the Vercel URL, log in, and manage charging stations.<br>
 Backend API: Use the Render URL to access endpoints like /api/chargers.<>br
 
-### Features
+## Features
 
 Frontend: View charging stations on a map, add/edit/delete stations, filter by status/power output/connector type.<br>
 Backend: REST API for managing charging stations, secured with JWT authentication.<br>
