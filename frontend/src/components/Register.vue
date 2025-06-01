@@ -55,7 +55,7 @@ export default {
     async register() {
       this.error = '';
       try {
-        const res = await axios.post('http://localhost:3000/api/auth/register', {
+        const res = await axios.post('https://charging-station-app-g0lb.onrender.com/api/auth/register', {
           email: this.email,
           password: this.password,
         });
