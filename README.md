@@ -2,7 +2,7 @@
 This is a full-stack application for managing electric vehicle charging stations. The frontend is built with Vue 3, and the backend is built with Node.js, Express, and MongoDB.
 ## Project Structure
 
-/backend: Contains the Node.js/Express backend.\n
+/backend: Contains the Node.js/Express backend.<br>
 /frontend: Contains the Vue 3 frontend.
 
 ## Prerequisites
