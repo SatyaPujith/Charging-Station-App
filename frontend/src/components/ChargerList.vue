@@ -331,7 +331,7 @@ export default {
     },
     async fetchChargers() {
       try {
-        const res = await axios.get('http://localhost:3000/api/chargers');
+        const res = await axios.get('https://charging-station-app-g0lb.onrender.com/api/chargers');
         this.chargers = res.data || [];
         this.applyFilters();
       } catch (err) {
@@ -360,7 +360,7 @@ export default {
           this.$router.push('/login');
           return;
         }
-        await axios.post('http://localhost:3000/api/chargers', this.newCharger, {
+        await axios.post('https://charging-station-app-g0lb.onrender.com/api/chargers', this.newCharger, {
           headers: { Authorization: `Bearer ${token}` },
         });
         this.closeAddModal();
@@ -419,7 +419,7 @@ export default {
           this.$router.push('/login');
           return;
         }
-        await axios.put(`http://localhost:3000/api/chargers/${this.editingChargerId}`, this.editForm, {
+        await axios.put(`https://charging-station-app-g0lb.onrender.com/api/chargers/${this.editingChargerId}`, this.editForm, {
           headers: { Authorization: `Bearer ${token}` },
         });
         this.editingChargerId = null;
@@ -451,7 +451,7 @@ export default {
             this.$router.push('/login');
             return;
           }
-          await axios.delete(`http://localhost:3000/api/chargers/${id}`, {
+          await axios.delete(`https://charging-station-app-g0lb.onrender.com/api/chargers/${id}`, {
             headers: { Authorization: `Bearer ${token}` },
           });
           console.log(`Charger ${id} deleted successfully`);
