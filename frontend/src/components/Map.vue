@@ -32,7 +32,7 @@ export default {
   methods: {
     async fetchChargers() {
       try {
-        const res = await axios.get('http://localhost:3000/api/chargers');
+        const res = await axios.get('https://charging-station-app-g0lb.onrender.com/api/chargers');
         this.chargers = res.data || [];
         this.addMarkers();
       } catch (err) {
