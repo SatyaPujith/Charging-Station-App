@@ -1,11 +1,11 @@
-### Charging Station Application
+# Charging Station Application
 This is a full-stack application for managing electric vehicle charging stations. The frontend is built with Vue 3, and the backend is built with Node.js, Express, and MongoDB.
-### Project Structure
+## Project Structure
 
-/backend: Contains the Node.js/Express backend.
+/backend: Contains the Node.js/Express backend.\n
 /frontend: Contains the Vue 3 frontend.
 
-### Prerequisites
+## Prerequisites
 
 Node.js (v16 or later)
 MongoDB Atlas account for the database
@@ -13,8 +13,8 @@ Git installed
 Vercel account (for frontend deployment)
 Render account (for backend deployment)
 
-### Setup Instructions
-## Backend Setup
+## Setup Instructions
+### Backend Setup
 ```
 Navigate to the Backend Directory:cd backend
 
